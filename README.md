@@ -117,9 +117,9 @@ Identifying and removing duplicate records to ensure data accuracy.
 example :
 Input:
 
-      df.duplicated().sum()
-      df_new = df.drop_duplicates()
-      df_new.duplicated().sum()
+         df.duplicated().sum()
+         df_new = df.drop_duplicates()
+         df_new.duplicated().sum()
 ## - imputing data
 Filling in missing data with appropriate values based on rules or algorithms.
 example : 
