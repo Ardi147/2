@@ -151,9 +151,7 @@ Reordering data based on one or more columns, usually in ascending or descending
 Example:
 Input: 
 
-         data = {'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve’],
-'Age': [25, 30, 22, 35, 28],
-'Salary': [50000, 60000, 45000, 70000, 55000]}
+         data = {'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve’], 'Age': [25, 30, 22, 35, 28], 'Salary': [50000, 60000, 45000, 70000, 55000]}
          sorted_data = sorted(zip(data['Name'], data['Age'],        data['Salary']), key=lambda x: x[1])
          print("Sorted data by Age:", sorted_data)
 # - filtering
